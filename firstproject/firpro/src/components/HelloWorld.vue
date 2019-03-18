@@ -3,6 +3,7 @@
     <h1>{{ hi }}</h1>
     <h1>{{ msg }}</h1>
     <router-link to="./skip">skip</router-link>
+    <router-link to="./skipp">skipp</router-link>
   </div>
 </template>
 
