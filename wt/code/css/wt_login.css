@@ -1,0 +1,75 @@
+/*
+
+
+
+*/
+
+*{
+    padding: 0;margin: 0;
+}
+
+.wt_containerfluid {
+    padding: 7rem 2rem 0 2rem ;
+}
+
+.wt_formcontrol , .wt_formcontrol:focus{
+    border-radius:0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 1rem 0.66rem;
+}
+
+.icon {
+    font-size: 15px;
+}
+.icon-user {
+    width: 2rem;
+    height: 2rem;
+    background: url(../imgs/login/login_user.png) no-repeat;
+    background-size: 95%;
+}
+
+.icon-user:before {
+    content: '';
+}
+
+.icon-key {
+    width: 2rem;
+    height: 2rem;
+    background: url(../imgs/login/login_pw.png) no-repeat;
+    background-size: 95%;
+}
+
+.icon-key:before {
+    content: '';
+}
+
+.wt_inputcontrol {
+    margin-bottom: 2rem;
+}
+
+.input-control-icon-left {
+    opacity: 1;
+}
+
+.icon-check {
+    width: 14rem;
+    height: 4rem;
+    padding: 0.5rem;
+    border: 1px solid rgba(230,230,230,1);
+    border-radius: 0rem;
+}
+
+.icon-check:before {
+    content: '获取验证码';
+    color: #999999;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+}
+
+.input-control-icon-right {
+    width: 100%;
+    text-align: right;
+}
