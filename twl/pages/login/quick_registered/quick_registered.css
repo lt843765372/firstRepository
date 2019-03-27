@@ -45,7 +45,9 @@
     height: 4rem;
 }
 
-
+.input-control.has-icon-left > .form-control {
+    padding-left: 2rem;
+}
 
 
 

@@ -19,6 +19,10 @@
     padding: 1rem 0.66rem;
 }
 
+.input-control.has-icon-left > .form-control {
+    padding-left: 2rem;
+}
+
 .icon {
     font-size: 15px;
 }
