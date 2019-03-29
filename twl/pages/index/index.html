@@ -1,44 +1,163 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>淘微链</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<!--禁止将数字变为电话号码-->
-<meta name="format-detection" content="telephone=no" />
-<!--iphone设备中的safari私有meta标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<!--iphone中safari顶端的状态条的样式 -->
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="author" content="作者" />
-<link rel="stylesheet" href="../../static/zui/css/zui.css">
-<link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <title>淘微链</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <!--禁止将数字变为电话号码-->
+        <meta name="format-detection" content="telephone=no" />
+        <!--iphone设备中的safari私有meta标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!--iphone中safari顶端的状态条的样式 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="作者" />
+        <link rel="stylesheet" href="../../static/zui/css/zui.css">
+        <link rel="stylesheet" href="index.css">
+</head>
 
- </head>
- 
 <body>
-        <div class="input-control search-box search-box-circle has-icon-left has-icon-right" id="searchboxExample">
+<div class="container-fluid wt_containerfluid">
+        <div class="input-control search-box search-box-circle has-icon-left has-icon-right input_control" id="searchboxExample">
                 <input id="inputSearchExample1" type="search" class="form-control search-input" placeholder="搜索">
                 <label for="inputSearchExample1" class="input-control-icon-left search-icon"><i class="icon icon-search"></i></label>
                 <a href="#" class="input-control-icon-right search-clear-btn"><i class="icon icon-remove"></i></a>
         </div>
-
-        <div class="row">
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
-                <div class="col">.col-md-4</div>
+        <div class="flexcontainer">
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/woman.png" alt="">
+                                <span>女装</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/makeups.png" alt="">
+                                <span>美妆</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/body.png" alt="">
+                                <span>母婴</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/home.png" alt="">
+                                <span>家居家装</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/home-elec.png" alt="">
+                                <span>数码家电</span>
+                        </a>
+                </div>
         </div>
+
+        <div class="flexcontainer flexcontainer_bottom">
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/food.png" alt="">
+                                <span>食品</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/man.png" alt="">
+                                <span>男装</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/shoes.png" alt="">
+                                <span>鞋包配饰</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/fresh.png" alt="">
+                                <span>生鲜</span>
+                        </a>
+                </div>
+                <div>
+                        <a href="#">
+                                <img src="../../static/imgs/index/sort.png" alt="">
+                                <span>分类</span>
+                        </a>
+                </div>
+        </div>
+
+        <div class="banner">
+                <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- 圆点指示器 -->
+                        <ol class="carousel-indicators">
+                                <li data-target="#myNiceCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myNiceCarousel" data-slide-to="1"></li>
+                                <li data-target="#myNiceCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- 轮播项目 -->
+                        <div class="carousel-inner">
+                                <div class="item active">
+                                        <img alt="First slide" src="http://zui.sexy/docs/img/slide1.jpg">
+                                        <div class="carousel-caption">
+                                                <h3>我是第一张幻灯片</h3>
+                                                <p>:)</p>
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img alt="Second slide" src="http://zui.sexy/docs/img/slide2.jpg">
+                                        <div class="carousel-caption">
+                                                <h3>我是第二张幻灯片</h3>
+                                                <p>0.0</p>
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img alt="Third slide" src="http://zui.sexy/docs/img/slide3.jpg">
+                                        <div class="carousel-caption">
+                                                <h3>我是第三张幻灯片</h3>
+                                                <p>最后一张咯~</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 项目切换按钮 -->
+                        <a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
+                                <span class="icon icon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
+                                <span class="icon icon-chevron-right"></span>
+                        </a>
+                </div>
+        </div>
+</div>
+<div class="container-fluid wt_containerfluid recommond">
+        <div class="recommond_title">
+                <span class="rec_left_img"></span><span class="rec_font">推荐榜单</span><span class="rec_right_img"></span>
+        </div>
+        <div class="recommond_list">
+                <div>
+                        <div class="list_img"></div>
+                        <div class="list_title">大当家 泰国进口金枕头榴莲好吃不上火</div>
+                        <div class="list_info">
+                                <i>￥<span>218</span></i>
+                                <i class="sale">销量:<span>998</span></i>
+                        </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+        </div>
+</div>
+
 </body>
-<script src="../../static/js/query.js"></script>
-<script src="../../static/zui/js/zui.js"></script>
-<script src="index.js"></script>
+<!--<script src="../../static/js/jquery.js"></script>-->
+<!--<script src="../../static/zui/js/zui.js"></script>-->
+<!--<script src="index.js"></script>-->
 </html>
